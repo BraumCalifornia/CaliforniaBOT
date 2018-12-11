@@ -1,0 +1,6 @@
+discord
+json
+asyncio
+time
+random
+os
