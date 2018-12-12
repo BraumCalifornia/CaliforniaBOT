@@ -48,4 +48,4 @@ async def on_message(message):
     if message.content == 'bot':
         await client.send_message(message.channel, '**Jaki bot?**')
 
-client.run('NTE4NDQwMzQ5ODYyMDY4MjI3.DuQzBg.zyxQRiHlYgQsQHC3tlLzBI-GkGE')
+client.run(os.getnv('TOKEN'))
